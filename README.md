@@ -39,7 +39,7 @@ Three tables are used in oracle sql.
     structure: 
                COMPLAINTNO                NOT NULL NUMBER(10);
                COMPLAINTDATE                   DATE;
-                   ID                     VARCHAR2(20;)
+                   ID                     VARCHAR2(20);
                 DEPARTMENT                VARCHAR2(80);
                  SUBJECT                  VARCHAR2(200);
                  STATUS                   VARCHAR2(20).

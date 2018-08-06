@@ -22,25 +22,25 @@ Oracle database is used to store student data admin data and complaint data.
 Three tables are used in oracle sql.
 
 1)Accounts table: Consists of student data.
-       structure: column name        column type
-                   ID                VARCHAR2(20)
-                   PASSWORD          VARCHAR2(50)
-                   NAME              VARCHAR2(30)
-                   SEMESTER          NUMBER(2)
-                   DEPARTMENT        VARCHAR2(20)
+       structure: 
+                   ID                VARCHAR2(20);
+                   PASSWORD          VARCHAR2(50);
+                   NAME              VARCHAR2(30);
+                   SEMESTER          NUMBER(2);
+                   DEPARTMENT        VARCHAR2(20).
 
 2)Admin table: Consists of admin data.
-    structure: column name            column type
-                 DEPID                VARCHAR2(30)
-                 DEPPASSWORD          VARCHAR2(20)
-                 DEPNAME              VARCHAR2(50)
+    structure: 
+                 DEPID                VARCHAR2(30);
+                 DEPPASSWORD          VARCHAR2(20);
+                 DEPNAME              VARCHAR2(50);
  
  3) Complaint: consist of complaint data.
-    structure: column name                column type
-               COMPLAINTNO                NOT NULL NUMBER(10)
-               COMPLAINTDATE                   DATE
-                   ID                     VARCHAR2(20)
-                DEPARTMENT                VARCHAR2(80)
-                 SUBJECT                  VARCHAR2(200)
-                 STATUS                   VARCHAR2(20)
+    structure: 
+               COMPLAINTNO                NOT NULL NUMBER(10);
+               COMPLAINTDATE                   DATE;
+                   ID                     VARCHAR2(20;)
+                DEPARTMENT                VARCHAR2(80);
+                 SUBJECT                  VARCHAR2(200);
+                 STATUS                   VARCHAR2(20).
   complaint text is stored in file.
